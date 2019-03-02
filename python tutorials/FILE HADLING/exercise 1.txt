@@ -1,0 +1,3 @@
+abhay,15000
+aditi,25000
+shivam,35000
