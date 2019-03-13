@@ -3,7 +3,7 @@
 # WHICH CALLED BISECT METHOD
 # remeber the list in sorted order
 
-pos=0
+pos= -1       #THIS POSITION IS NOT EXIST
 def binary_search(arr,x):
     low = 0
     upper = len(arr) - 1
@@ -20,7 +20,7 @@ def binary_search(arr,x):
     return False
 
 arr=[2,4,6,8,10]       #the sorted list
-x=8          #the element which we have to search in the list
+x=10       #the element which we have to search in the list
 result=binary_search(arr,x)        #calling the binary search function
 if result==True:
     print(f"yes,{pos}")
